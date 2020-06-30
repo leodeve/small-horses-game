@@ -151,7 +151,7 @@ void realiseAction(int num_joueur, int lancer, int num_action)
         affichageFinDeTour();
         break;
 
-    case 2:                                            //case est un label. Il ne peut pas directement être suivi d'une déclaration de variable. Mettre le point virgule pour éviter le problème
+    case 2:
         if (emplacement_canassons[num_joueur][0] == 0) //si le canasson est encore dans l'enclos
         {
             printf("Action impossible, le canasson est encore dans l'enclos\n");
